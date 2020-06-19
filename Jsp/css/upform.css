@@ -1,0 +1,75 @@
+body {
+	background: url(../img/dlbj1.png) fixed no-repeat center;
+}
+div {}
+
+.box {
+	margin: 20px 0 0 840px;
+	width: 600px;
+	height: 800px;
+}
+
+.boxx {
+	margin: 20px auto 0;
+	width: 340px;
+	padding-left: 60px;
+}
+
+.boxx1 {
+	margin: 0 auto;
+	width: 300px;
+	padding-left: 100px;
+}
+
+.boox2 {
+	margin: 0 auto;
+	width: 340px;
+	height: 80px;
+	padding: 20px 0 20px 60px;
+}
+
+.inyx {
+	width: 120px;
+	height: 30px;
+	color: #424141;
+	text-indent: 1em;
+	font-size: 16px;
+	margin: 15px auto 10px;
+	border: 1px solid #ededed;
+}
+
+.inyx1 {
+	width: 200px;
+	height: 30px;
+	color: #424141;
+	text-indent: 2em;
+	font-size: 16px;
+	margin: 15px auto 10px;
+	border: 1px solid #ededed;
+}
+
+.jsg {
+	width: 240px;
+	height: 100px;
+	color: #424141;
+	text-indent: 1em;
+	font-size: 16px;
+	border: 1px solid #ededed;
+}
+
+span {
+	position: relative;
+	top: -40px;
+	left: 0px;
+}
+
+.sub {
+	background: #4452d5;
+	color: white;
+	border: 1px solid #ededed;
+	margin-left: 60px;
+	width: 100px;
+	height: 40px;
+	font-size: 16px;
+	text-align: center;
+}

@@ -1,0 +1,205 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+body {
+	background: url(../img/dlbj1.png) fixed no-repeat center;
+}
+
+.box {
+	width: 500px;
+	height: 500px;
+	margin: 70px 0 0 920px;
+	/*background: gray;*/
+}
+
+.logo {
+	margin-top: 50px;
+	margin-left: 200px;
+}
+
+.logo h1 {
+	color: white;
+	font-family: "微软雅黑";
+}
+
+.top {
+	width: 500px;
+	height: 100px;
+	/*background: red;*/
+}
+
+.dlname {
+	width: 210px;
+	height: 30px;
+}
+
+.dlname1 {
+	width: 210px;
+	height: 15px;
+}
+
+.c1 {
+	color: #4452d5;
+	font-family: "微软雅黑";
+	font-size: 21px;
+}
+
+.c2 {
+	color: #b2b2b2;
+	font-size: 12px;
+}
+
+ul .hover {
+	border-bottom: 1px solid #929ba2;
+}
+
+.box .boxd {
+	width: 500px;
+	height: 310px;
+	/*background: green;*/
+}
+.bottom {
+	width: 400px;
+	height: 90px;
+	/*background: pink;*/
+}
+.boxd .block {
+	display: block;
+}
+
+.boxd div {
+	display: none;
+}
+
+form {
+	margin-bottom: 16px;
+}
+
+input {}
+
+.user {
+	width: 400px;
+	height: 50px;
+	color: #424141;
+	background: white url(../img/User.png) 20px center no-repeat;
+	text-indent: 4em;
+	font-size: 16px;
+	border: 1px solid #ededed;
+}
+
+.pwd {
+	margin-top: 40px;
+	width: 400px;
+	height: 50px;
+	color: #424141;
+	background: white url(../img/Key.png) 20px center no-repeat;
+	text-indent: 4em;
+	font-size: 16px;
+	border: 1px solid #ededed;
+	margin-bottom: 36px;
+}
+.pwd1 {
+	margin-top: 40px;
+	width: 400px;
+	height: 50px;
+	color: #424141;
+	background: white url(../img/Key.png) 20px center no-repeat;
+	text-indent: 4em;
+	font-size: 16px;
+	border: 1px solid #ededed;
+}
+.repwd {
+	margin-top: 40px;
+	width: 400px;
+	height: 50px;
+	color: #424141;
+	background: white url(../img/Key.png) 20px center no-repeat;
+	text-indent: 4em;
+	font-size: 16px;
+	border: 1px solid #ededed;
+	margin-bottom: 36px;
+}
+
+/*选定前*/
+
+#rem+label::before {
+	/*设置label标签的伪元素*/
+	content: "\a0";
+	/*不换行空格*/
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #4452d5;
+}
+
+
+/*选定时*/
+
+#rem:checked+label::before {
+	content: "\2714";
+	/*√*/
+	text-align: center;
+}
+
+
+/*取消默认框*/
+
+#rem {
+	display: none;
+}
+
+.sub {
+	margin-top: 40px;
+	width: 400px;
+	height: 54px;
+	background: #4452d5;
+	color: white;
+	font-size: 25px;
+	border: 1px solid #ededed;
+}
+
+.c3 {
+	color: #b2b2b2;
+}
+
+.c4 {
+	color: #4450c5;
+}
+
+.zc:hover {
+	color: deeppink;
+}
+.dl:hover {
+	color: deeppink;
+}
+#code {
+		  font-family: Arial;
+		  font-style: italic;
+		  font-weight: bold;
+		  border: 1px solid white;
+		  letter-spacing: 2px;
+		  color: red;
+		  background: white;
+}
+.yz {
+	border: none;
+	/*background-color: white;*/
+	color: #4450c5;
+}
